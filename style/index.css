@@ -1,0 +1,178 @@
+/* färger
+
+ORANGEEEE
+gamboge:
+#E59500
+
+Persian orange
+#CB904D
+
+GRÅÅÅÅÅ
+Timberwolf
+#E5DADA
+
+SVARTTTTT
+Rich Black
+#02040F
+
+RÖÖÖÖÖÖD
+claret
+#840032
+
+rust
+#BF3100
+
+BlÅÅÅÅ
+Prussian Blue
+#002642
+
+
+
+FONTS
+font-family: 'Fira Code', monospace;
+font-family: 'Courier New', Courier, monospace;
+font-family: Arial, Helvetica, sans-serif;
+*/
+
+@import url(https://use.fontawesome.com/releases/v5.0.6/css/all.css);
+@import url(https://fonts.googleapis.com/css?family=Oswald:400|Raleway:400,700,400italic,700italic);
+
+
+* {
+    -webkit-text-size-adjust: 100%;
+    text-size-adjust: 100%;
+    box-sizing: border-box;
+}
+
+body{
+    margin: 0;
+    padding: 0;
+    background-color: white;
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+    height: 100vh;
+    font-family: 'Raleway', sans-serif;
+}
+
+/* -----------------HEADER-----------------*/
+
+
+header{
+    display: flex;
+    justify-content: space-between;
+    max-width: 100%;
+    background-color: black;
+    margin: 40px;
+}
+
+.logo{
+    width: 250px;
+    height: 250px;
+    border-radius: 50%;;
+}
+
+.main-nav {
+    display: flex;
+    flex-direction: column;
+    background-color: black;
+    text-align: center;
+    width: 100%;
+}
+
+.menutoggle {
+    display: block;
+    width: 46px;
+    background: transparent;
+    border: 0;
+    cursor: pointer;
+    margin-bottom: 0.5em;
+    align-self: flex-end;
+}
+
+.menutoggle:focus {
+    outline: none;
+}
+
+.menutoggle:before,
+.menutoggle:after {
+    background-color: orange;
+    content: '';
+    display: block;
+    height: 4px;
+    transition: all 200ms ease-in-out;
+}
+
+.menutoggle:before {
+    box-shadow: 0 10px 0 orange;
+    margin-bottom: 16px;
+}
+
+#menuselector {
+    opacity: 0;
+    width: 0;
+    height: 0;
+    display: block;
+}
+
+input[type=checkbox]:checked ~ .menutoggle:before {
+    box-shadow: 0 0 0 white;
+    transform: translateY(10px) rotate(45deg);
+}
+
+input[type=checkbox]:checked ~ .menutoggle:after {
+    transform: translateY(-10px) rotate(-45deg);
+}
+
+
+input[type=checkbox]:checked ~ .menu {
+    margin-top: -46px;
+    transition: 0.4s ease-in-out;
+    border: 1px solid white;
+    border-radius: 30px;
+    
+}
+
+/*mitt börjar här*/
+.menu{
+    margin-top: -800px;
+    padding-left: 0;
+    margin-right: 46px;
+}
+
+#menuselector{
+    display: inline-block;
+}
+
+
+
+input[type=checkbox]{
+    display: inline-block;
+}
+
+.menuitem{
+    list-style: none;
+    border-bottom: 1px solid orange;
+    padding: 20px;
+}
+
+.menuitem a{
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 45px;
+}
+
+.menuitem:hover a{
+    color: orange;
+    transition: 0.3s ease-in-out;
+}
+
+
+
+
+
+/************   MAIN **********/
+.header-img{
+    max-width: 100%;
+    height: auto;
+}
