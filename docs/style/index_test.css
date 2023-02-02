@@ -1,3 +1,11 @@
+@import url(https://use.fontawesome.com/releases/v5.0.6/css/all.css);
+@import url(https://fonts.googleapis.com/css?family=Oswald:400|Raleway:400,700,400italic,700italic);
+/*
+font
+font-family: 'Oswald', sans-serif;
+*/
+
+
 * {
     -webkit-text-size-adjust: 100%;
     text-size-adjust: 100%;
@@ -217,13 +225,15 @@ nav ul#social-media > li {
 }
 
 .header-text{
-    font-size: 40px;
+    font-size: 80px;
     color: white;
-
+    margin-bottom: 20px;
 }
 
 .header-subtext{
     color: orange;
+    font-size: 40px;
+    margin-bottom: 40px;
 }
 
 .header-button{
@@ -232,7 +242,7 @@ nav ul#social-media > li {
     border-radius: 15px;
     width: fit-content;
     padding: 10px;
-    font-size: 20px;
+    font-size: 30px;
     font-weight: bold;
 }
 
@@ -257,22 +267,23 @@ nav ul#social-media > li {
     display: flex;
     justify-content: space-between;
     max-width: 100%;
-    margin: 80px 150px 0 150px;
+    margin: 80px;
     height: auto;
 }
 
 .text-container{
     display: flex;
     flex-direction: column;
-    width: 40%;
-    height: 25rem;
+    width: auto;
+    height: auto;
     justify-content: space-between;
+    margin-right: 20px;
 }
 
 .section-img{
     width: auto;
-    height: 400px;
-    max-width: 100%;
+    height: auto;
+    max-width: 50%;
     margin-right: 0;
     border-radius: 20px;
 }
@@ -280,15 +291,19 @@ nav ul#social-media > li {
 .section-header{
     color: orange;
     margin-top: 0;
+    font-size: 40px;
+    margin: 0;
 }
 
 .section-preamble{
     color: grey;
-    
+    font-size: 30px;
+    margin: 0;
 }
 
 .presentation-text{
     color: rgb(187, 184, 184);
+    font-size: 25px;
 }
 
 
