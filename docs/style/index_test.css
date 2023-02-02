@@ -237,31 +237,29 @@ nav ul#social-media > li {
 }
 
 .header-button{
-    background-color: rgb(255, 149, 0);
-    border: 1px solid rgb(255, 157, 0);
+    background-color: rgba(246, 146, 17, 0.434);
+    border: 0.2px solid rgba(255, 157, 0, 0.403);
     border-radius: 15px;
     width: fit-content;
     padding: 10px;
     font-size: 30px;
     box-shadow: rgba(225, 7, 7, 0.35) 0px 5px 15px;
-    box-shadow: rgb(129, 66, 11) 0px 20px 30px -10px;
 }
 
 .header-button > a{
     text-decoration: none;
-    color: rgb(176, 52, 43);
-    color: rgb(253, 226, 195);
+    color: rgba(187, 179, 179, 0.86);
     font-family: 'Raleway', sans-serif;
 }
 
 .header-button:hover{
-    background-color: rgb(245, 154, 89);
+    background-color: rgba(255, 140, 0, 0.779);
     border: 1px solid rgba(255, 140, 0, 0.779);
     transition: 0.4s ease-in-out;
 }
 
 .header-button:hover a{
-    color: rgb(176, 52, 43);
+    color: rgb(246, 239, 238);
     transition: 0.4s ease-in-out;
 }
 
