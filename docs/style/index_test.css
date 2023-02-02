@@ -262,8 +262,11 @@ nav ul#social-media > li {
 }
 
 .text-container{
+    display: flex;
+    flex-direction: column;
     width: 40%;
-    height: auto;
+    height: 25rem;
+    justify-content: space-between;
 }
 
 .section-img{
@@ -271,7 +274,27 @@ nav ul#social-media > li {
     height: 400px;
     max-width: 100%;
     margin-right: 0;
+    border-radius: 20px;
 }
+
+.section-header{
+    color: orange;
+    margin-top: 0;
+}
+
+.section-preamble{
+    color: grey;
+    
+}
+
+.presentation-text{
+    color: rgb(187, 184, 184);
+}
+
+
+/*********************************
+***********FOOTER**********************
+*********************************/
 
 .page-footer{
     text-align: center;
