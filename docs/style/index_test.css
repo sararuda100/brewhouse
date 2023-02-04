@@ -313,14 +313,19 @@ nav ul#social-media > li {
 *********************************/
 
 .section-img2{
-    max-width: 50%;
+    max-width: 40%;
     height: auto;
-    margin-right: 0;
+    margin-right: 20px;
     border-radius: 20px;
 }
 
 .text-container2{
     margin-left: 10px;
+    display: flex;
+    flex-direction: column;
+    width: auto;
+    height: auto;
+    justify-content: space-between;
 }
 
 
@@ -368,6 +373,47 @@ nav ul#social-media > li {
     color: white;
     display: grid;
 }
+
+/*********************************
+***********BOTTOM-CONTAINER*******
+*********************************/
+
+ .bottom-container {
+    display: flex;
+    max-width: 100%;
+    margin: 80px;
+    justify-content: space-between;
+}
+
+.hour-container{
+    display: flex;
+    
+}
+
+.open-hours{
+    list-style: none;
+    margin-right: 70px;
+    padding: 0;
+}
+
+.day{
+    display: flex;
+}
+
+.day-of-week{
+    padding-right: 20px;
+    color: grey;
+    font-weight: bold;
+}
+
+.section-img3{
+    width: 40%;
+    height: auto;
+    border-radius: 20px;
+}
+
+
+
 
 /*********************************
 ***********FOOTER**********************
