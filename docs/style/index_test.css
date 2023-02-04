@@ -419,7 +419,38 @@ nav ul#social-media > li {
 ***********FOOTER**********************
 *********************************/
 
+
 .page-footer{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
     text-align: center;
-    color: grey;
+    background-color: rgb(230, 227, 227);
+    width: 100%;
+    color: rgb(30, 29, 29);
 }
+
+.copy-write p{
+    
+}
+
+.social-media-list{
+    list-style: none;
+    display: flex;
+    justify-content: center;
+}
+
+.social-media-list li{
+    margin: 10px;
+}
+
+.social-media-footer h3{
+    font-size: 30px;
+    text-align: center;
+}
+
+.social-media-list li>a{
+    text-decoration: none;
+    color:rgb(30, 29, 29);
+}
+
