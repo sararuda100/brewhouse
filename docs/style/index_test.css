@@ -425,9 +425,9 @@ nav ul#social-media > li {
     flex-direction: column;
     justify-content: center;
     text-align: center;
-    background-color: rgb(230, 227, 227);
+    background-color: rgb(0, 0, 0);
     width: 100%;
-    color: rgb(30, 29, 29);
+    color: rgb(100, 100, 100);
 }
 
 .copy-write p{
@@ -438,6 +438,7 @@ nav ul#social-media > li {
     list-style: none;
     display: flex;
     justify-content: center;
+    padding: 0;
 }
 
 .social-media-list li{
@@ -445,12 +446,21 @@ nav ul#social-media > li {
 }
 
 .social-media-footer h3{
-    font-size: 30px;
+    font-size: 40px;
     text-align: center;
+    display: flex;
+    justify-content: center;
+    color: rgb(169, 169, 169);
 }
 
 .social-media-list li>a{
     text-decoration: none;
-    color:rgb(30, 29, 29);
+}
+
+svg{
+    width: 60px;
+    height: 60px;
+    /* color: rgb(100, 100, 100); */
+    color: rgb(169, 169, 169);
 }
 
