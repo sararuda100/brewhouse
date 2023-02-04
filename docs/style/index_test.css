@@ -309,7 +309,23 @@ nav ul#social-media > li {
 }
 
 /*********************************
-***********Section container**********
+***********Second middle-container**********
+*********************************/
+
+.section-img2{
+    max-width: 50%;
+    height: auto;
+    margin-right: 0;
+    border-radius: 20px;
+}
+
+.text-container2{
+    margin-left: 10px;
+}
+
+
+/*********************************
+***********Category container**********
 *********************************/
 .heading-text{
     color: orange;
