@@ -37,10 +37,12 @@ input[name="message"]{
 #submit{
     font-size: 40px;
     border-radius: 10px;
+    background-color: white;
 }
 
 #submit:hover{
-    background-color: rgba(255, 255, 255, 0.267);
+    background-color: rgba(11, 11, 11, 0.267);
+    border: 2px solid orange;
     color: orange;
     opacity: 0.3;
 }
