@@ -1,0 +1,46 @@
+.main-contact-container{
+    display: flex;
+    width: 100%;
+}
+
+.left-side{
+    display: none;
+}
+
+.right-side{
+    height: auto;
+    width: 100%;
+    margin: 80px;
+}
+
+.contact-form{
+    font-size: 50px;
+    width: auto;
+}
+
+input{
+    height: 60px;
+    width: 100%;
+    font-size: 40px;
+    border-radius: 10px;
+}
+
+.form-field{
+    margin: 40px;
+}
+
+input[name="message"]{
+    height: 200px;
+    margin-top: 20px;
+}
+
+#submit{
+    font-size: 40px;
+    border-radius: 10px;
+}
+
+#submit:hover{
+    background-color: rgba(255, 255, 255, 0.267);
+    color: orange;
+    opacity: 0.3;
+}
