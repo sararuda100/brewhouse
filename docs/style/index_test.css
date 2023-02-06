@@ -446,11 +446,12 @@ nav ul#social-media > li {
 }
 
 .social-media-footer h3{
-    font-size: 40px;
+    font-size: 30px;
     text-align: center;
     display: flex;
     justify-content: center;
     color: rgb(169, 169, 169);
+    padding-bottom: 10px;
 }
 
 .social-media-list li>a{
